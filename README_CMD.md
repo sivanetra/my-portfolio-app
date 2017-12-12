@@ -7,8 +7,9 @@ MAC setup:
 
   >brew install git
   >brew install awscli
-  >brew install atom
-  >brew install python
-  >pip install boto3 .  --> python packages to control amazon resources
+  >brew cask install atom --> Atom is a text editor
+  >brew install python
+  >pip install boto3  --> python library to write py scripts that control amazon resources
+  >sudo -H pip install ipython --> IPython is an interactive command-line terminal for Python
   
 3. 
