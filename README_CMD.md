@@ -18,4 +18,8 @@ MAC setup:
   
   >sudo -H pip install ipython --> IPython is an interactive command-line terminal for Python
   
-3. 
+3. Git Config
+
+  >git config --global user.name "Sivanetra"
+  
+  >git config --global user.email "netra.nadimpalli@gmail.com"
