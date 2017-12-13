@@ -11,9 +11,7 @@ build:
 #tell artfifacts output of the BUILD
 artifacts:
   files:
-    -index.html
-    -favicon.ico
-    -images/*
-    -styles/*
-
-            
+    - index.html
+    - favicon.ico
+    - images/*
+    - styles/*
