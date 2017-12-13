@@ -1,0 +1,19 @@
+version: 0.1
+
+# BUILD MADE OF PHASES. NEED ATLEAST A PHASE WITH commands
+# We don't have any commands since it is sattic section__exampleImage# echo nothing needed
+
+build:
+    phases:
+      commands:
+        - echo Nothing to do stylesheet
+
+#tell artfifacts output of the BUILD
+artifacts:
+  files:
+    -index.html
+    -favicon.ico
+    -images/*
+    -styles/*
+
+            
