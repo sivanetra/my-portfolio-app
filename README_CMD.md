@@ -1,4 +1,4 @@
-MAC setup:
+#MAC setup:
 
 1.Install homebrew from https://brew.sh/
 
@@ -7,19 +7,19 @@ MAC setup:
 2.Open Terminal and install required tools
 
   >brew install git
-  
+
   >brew install awscli
-  
+
   >brew cask install atom --> Atom is a text editor
-  
+
   >brew install python
-  
+
   >pip install boto3  --> python library to write py scripts that control amazon resources
-  
+
   >sudo -H pip install ipython --> IPython is an interactive command-line terminal for Python
-  
+
 3. Git Config
 
   >git config --global user.name "Sivanetra"
-  
-  >git config --global user.email "netra.nadimpalli@gmail.com"
+
+  >git config --global user.email netra.nadimpalli@gmail.com
