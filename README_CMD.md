@@ -20,6 +20,23 @@
 
 3. Git Config
 
-  >git config --global user.name "Sivanetra"
+  >git config --global user.name "Name"
 
-  >git config --global user.email netra.nadimpalli@gmail.com
+  >git config --global user.email emailId
+
+4. SSH setup
+
+  >ssh-keygen -C emailId
+  enter passPhrase --> remember This
+
+  >ls ~/.ssh
+
+  files listed = id_rsa, id_rsa.pub
+
+  >ssh-add      --> add private key to your local
+
+  >cat ~/.ssh/id_rsa.pub    --> add public key to your github
+
+  Go to github. --> settings --> ssh & gpg keys
+  --> give some title and copy key
+  --> add ssh key
