@@ -14,9 +14,9 @@
 
   >brew install python
 
-  >pip install boto3  --> python library to write py scripts that control amazon resources
+  >pip2 install boto3  --> python library to write py scripts that control amazon resources
 
-  >sudo -H pip install ipython --> IPython is an interactive command-line terminal for Python
+  >sudo -H pip2 install ipython --> IPython is an interactive command-line terminal for Python
 
 3. Git Config
 
