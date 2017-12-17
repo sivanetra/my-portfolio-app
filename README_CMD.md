@@ -40,3 +40,9 @@
   Go to github. --> settings --> ssh & gpg keys
   --> give some title and copy key
   --> add ssh key
+
+
+5. npm install
+
+  >brew install npm
+  

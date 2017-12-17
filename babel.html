@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Babel</title>
+    <style media="screen">
+      .errorBox {
+        border: 1px solid red;
+        background-color: #eebbbb;
+        margin: 2em;
+        padding: 2em;
+      }
+      .errorBox-hidden {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Babel Page</h1>
+
+
+    <label for="name">Name</label>
+    <input id="name" type="text"></input>
+    <button id="submit_button">Click me!</button>
+    <div id="content"></div>
+    <div id="errorMessage" class="errorBox-hidden">You need to enter a name with more tha 2 char!</div>
+
+    <script src="https://unpkg.com/babel-standalone">
+    </script>
+
+    <script type="text/babel" data-presets="latest">
+      const getMessage = (name) => `Welcome to javascript, ${name}!`;
+      const button = document.getElementById('submit_button');
+      const contentArea = document.getElementById('content');
+      const errorArea = document.getElementById('errorMessage');
+
+      button.addEventListener('click', (event)=>{
+        let name = document.getElementById('name').value;
+        errorMessage.className = 'errorBox-hidden';
+        contentArea.textContent = '';
+        if(name.length <2)
+        {
+          errorMessage.className = 'errorBox';
+        }
+        else {
+          contentArea.textContent = getMessage(name);
+        }
+      });
+    </script>
+
+
+  </body>
+
+</html>
